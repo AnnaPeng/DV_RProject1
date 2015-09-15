@@ -10,6 +10,7 @@ This is an R Markdown document. Markdown is a simple formatting syntax for autho
 When you click the **Knit** button a document will be generated that includes both content as well as the output of any embedded R code chunks within the document. You can embed an R code chunk like this:
 
 ###This is our exploration of the data
+This is what we explored about the Titanic dataset. Here we want to compare the female survivors against the male survivors at each age (excluding ages under 2). Here we find that all the survivors over age 64 are males and no females of age over 64 survivied. Overall, by looking at each small cell at each age, we get the intuition that males overall have higher survival rate than females. This is an interesting file especially by looking at the tail of the plot. 
 ```{r}
 
 require("jsonlite")
